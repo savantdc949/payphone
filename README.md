@@ -3,6 +3,15 @@ This is where code would/should/might go. Basically, all of the brute force code
 On the other hand, I've decided to try and have another go at the ACTS detection code. This is what I've got so far. I'm a crap coder so don't expect anything elegant. Bugs are expected.
 
 ===============
+Goals:
+===============
+1. Learn Python (gotta start somewhere)
+2. Learn Github (check!)
+3. Make cool shit?
+4. ...
+5. Not profit. (open source joke, heh)
+
+===============
 ACTSdetect.py
 ===============
 
@@ -35,5 +44,5 @@ sox somewavefle.wav -b 16 -r 8000 somenewfile.wav
 TODO:
 Write code that works.
 Write code that works better.
-Write the actual EAGI
+Write the actual EAGI.
 Write a readme that doesn't suck.
