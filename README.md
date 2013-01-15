@@ -20,11 +20,13 @@ The ultimate goal of this is to be able to create an Asterisk EAGI which will pr
 
 The nice thing is, you *should* be able to use a REAL BOCOT payphone with a totalizer that generates ACTS as well as using a red box tone generator. I don't have a real one (though I sure would love an old PacBell payphone, pre-AT&T), so YMMV.
 
+I have not yet removed any of Black Aura's DTMF detection stuff, so the code should also still decode DTMF touch tones. Pretty nifty, although I'll end up removing it later to try and optimize. Yeah, optimize. Doesn't that require someone to know what they're doing first?
+
 Anyhow, this is barely more than vaporware anyway at this point.
 
 USEAGE:
 
-python ACTSdetect.py <somewavefile>
+python ACTSdetect.py somewavefile.wav
 
 The wav file should be resampled at 8000hz and 16bit. sox is your friend:
 
