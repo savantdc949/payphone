@@ -2,7 +2,12 @@ This is where code would/should/might go. Basically, all of the brute force code
 
 On the other hand, I've decided to try and have another go at the ACTS detection code. This is what I've got so far. I'm a crap coder so don't expect anything elegant. Bugs are expected.
 
+===============
 ACTSdetect.py
+===============
+
+WHY:
+ACTS, Automated Coin Toll Service, was the system the phone company would use to track how much money had been inserted into a payphone. (http://en.wikipedia.org/wiki/Traffic_Service_Position_System#Automated_Coin_Toll_System). I thought it would be cool to make it so the Asterisk open source PBX phone system could support ACTS so "red boxing" calls through Asterisk would be possible. 
 
 Basically I started with Black Aura's Python DTMF decoding script, pygoertzel.py. It's awesome, and can be found here:
 
